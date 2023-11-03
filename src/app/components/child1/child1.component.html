@@ -1,0 +1,8 @@
+<div style="border: 2px solid black">
+    <h1>Child 1 Component</h1>
+    <h1 *ngFor="let product of products">Id: {{ product.id }}</h1>
+    <h1 *ngFor="let product of products">Prod Name: {{ product.name }}</h1>
+    <h1>Single Property Passed: {{ demo }}</h1>
+    <button (click)="onAddProduct({ id: 4, name: 'product 3' })">Add</button>
+  </div>
+  
